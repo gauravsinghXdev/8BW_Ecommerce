@@ -1,0 +1,56 @@
+<br><br><br>
+<section class="shoes">
+
+    <div class="single-product">
+        <div class="img-section">
+            <img src="<%= data.img %>" alt="">
+            <div>
+                <form action="/addToCart" method="post">
+                   <input type="submit" class="btn" value="Add to Cart"></input>
+                </form>
+                <a href="" class="btn">Buy now</a>
+            </div>
+        </div>
+        
+        <div class="product-details">
+            <div>
+                <p class="title"><%= data.title %></p>
+                <p><%= data.body %></p><br>
+                <p>
+                    <img src="https://cdn-icons-png.flaticon.com/128/9375/9375840.png" alt="">
+                    <span class="dis-price" style="font-size: x-large;"><%= data.discountPrice %></span>
+                    <span class="act-price"><%= data.price %></span>
+                </p>
+            </div><br>
+            <div>
+                <p style="font-weight: 500;">Select size</p><br>
+                <ul class="size">
+                <li>7 UK</li>
+                <li>8 UK</li>
+                <li>9 UK</li>
+                <li>10 UK</li>
+                <li>11 UK</li>
+            </ul></div><br><br><br>
+            <div class="offering">
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/5469/5469919.png" alt=""><br>
+                    <span>10 days return and exchange</span>
+                </div>
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/411/411763.png" alt=""><br>
+                    <span>Free delivery from XCleats</span>
+                </div>
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/12028/12028641.png" alt=""><br>
+                    <span>Top brands</span>
+                </div>
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/10236/10236726.png" alt=""><br>
+                    <span>Quality products</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
